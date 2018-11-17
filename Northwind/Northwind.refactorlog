@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="ed6d7a89-bdb8-4b41-bcc3-339ab4a3f434" ChangeDateTime="11/17/2018 13:21:01">
+    <Property Name="ElementName" Value="[dbo].[Region]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Regions]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c9a55fe0-7986-402a-a531-12f8cf6a2d8c" ChangeDateTime="11/17/2018 13:21:12">
+    <Property Name="ElementName" Value="[dbo].[PK_Region]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Regions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[PK_Regions]" />
+  </Operation>
+</Operations>
